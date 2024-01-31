@@ -4,7 +4,7 @@ import { StyleSheet, Text, TextInput, TouchableOpacity} from 'react-native';
 export default function screen2({navigation}) {
     return (
         <View style={styles.container}>
-           <TextInput style={styles.input}/>
+           <TextInput defaultValue="ecrire" style={styles.input}/>
             <Text style={styles.coco} onPress={() => navigation.navigate("screen1")}>
                 Go to screen1
             </Text>

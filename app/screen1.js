@@ -3,7 +3,7 @@ import { StyleSheet, Text, TextInput, TouchableOpacity, View } from 'react-nativ
 export default function screen1({ navigation }) {
     return (
         <View style={styles.container}>
-            <TextInput/>
+            <TextInput defaultValue="ecrire"/>
 
             <Text style={styles.coco}  onPress={() => navigation.navigate("screen2")}>
                 Go to screen2
